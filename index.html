@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <script src="https://kit.fontawesome.com/cc82851828.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="gridSystem.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script language="javascript" href="app.js"></script> -->
+
+</head>
+<body>
+    <!-- header -->
+    <div class="header" id="home"> 
+        <div class="grid wide">
+            <div class="row no-gutters">
+                <div class="col c-4 l-4 m-1">
+                    <div class="logo"><h1>Selling<span>.</span></h1></div>
+                    <div class="over__lay"></div>
+                </div>
+                <!-- Menu Tablet and PC -->
+                <div class="col c-0 l-8 m-11">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#home" class="active">Home</a></li>
+                        <li class="menu-item"><a href="#products">Products</a></li>
+                        <li class="menu-item"><a href="#about">About us</a></li>
+                        <li class="menu-item"><a href="#special">Special</a></li>
+                        <li class="menu-item"><a href="#services">Services</ali>
+                        <li class="menu-item"><a href="#blog">Blog</a></li>
+                        <li class="menu-item"><a href="#contact">Contact</a></li>
+                        <li class="menu-item"><a href="#">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="col nav-mobile c-8 l-0 m-0">
+                   <div id="nav-btn" class="nav-btn" onclick="showNav()"><i class="fas fa-align-justify" ></i></div>
+                   <div class="over__lay"></div>
+                   <ul class="nav__mobile-menu">
+                    <span id="nav-close" onclick="closeNav()"><i class="fas fa-window-close"></i></span>
+                     <li class="nav__mobile-list"><a href="#home" class="active-mobile"><i class="fas fa-home"></i> Home</a></li>
+                     <li class="nav__mobile-list"><a href="#products"><i class="fas fa-shopping-bag"></i> Products</a></li>
+                     <li class="nav__mobile-list"><a href="#about"><i class="far fa-address-card"></i> About Us</a></li>
+                     <li class="nav__mobile-list"><a href="#special"><i class="fas fa-calendar-alt"></i>Special</a></li>
+                     <li class="nav__mobile-list"><a href="#services"><i class="fas fa-file-signature"></i> Services</a></li>
+                     <li class="nav__mobile-list"><a href="#blog"><i class="fab fa-blogger"></i> Blog</a></li>
+                     <li class="nav__mobile-list"><a href="#contact"><i class="fas fa-id-card-alt"></i> Contact</a></li>
+                     <li class="nav__mobile-list"><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Banner -->
+    <div class="banner">
+        <div class="overlay__gray"></div> 
+        <div class="banner__content grid wide">
+            <div class="row no-gutters">
+                <div class="padding2side l-12">
+                    <h1>Shop With Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+                    <div class="button row no-gutters">
+                        <span>SHOP NOW</span>
+                        <span>CLUB MEMBERSHIP</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Products -->
+    <div class="products" id="products">
+        <div class="grid wide">
+            <div class="row no-gutters products__title">
+                <div class="col l-4">
+                    <h5>POPULAR PRODUCTS</h5>
+                    <h1>Our Products</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col l-4 m-6">
+                    <div class="products__item">
+                        <div class="products__item__image">
+                            <figure>
+                              <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                            </figure>
+                        </div>
+                        <h3>Wild West Hoodie</h3>
+                        <span><i class="fas fa-star star"></i> 5.0</span>
+                        <span><i class="fas fa-heart heart"></i> 99</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing , consectetur adipisicing</p>
+                        <span class="products__button">CART</span>
+                        <span class="products__button">VIEW</span>
+                    </div>
+                </div>
+                <div class="col l-4 m-6">
+                    <div class="products__item">
+                        <div class="products__item__image">
+                            <figure>
+                              <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                            </figure>
+                        </div>
+                        <h3>Wild West Hoodie</h3>
+                        <span><i class="fas fa-star star"></i> 5.0</span>
+                        <span><i class="fas fa-heart heart"></i> 99</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing , consectetur adipisicing</p>
+                        <span class="products__button">CART</span>
+                        <span class="products__button">VIEW</span>
+                    </div>
+                </div>
+                <div class="col l-4 m-6">
+                    <div class="products__item">
+                        <div class="products__item__image">
+                            <figure>
+                              <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                            </figure>
+                        </div>
+                        <h3>Wild West Hoodie</h3>
+                        <span><i class="fas fa-star star"></i> 5.0</span>
+                        <span><i class="fas fa-heart heart"></i> 99</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing , consectetur adipisicing</p>
+                        <span class="products__button">CART</span>
+                        <span class="products__button">VIEW</span>
+                    </div>
+                </div>
+                <div class="col l-4 m-6">
+                    <div class="products__item">
+                        <div class="products__item__image">
+                            <figure>
+                              <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                            </figure>
+                        </div>
+                        <h3>Wild West Hoodie</h3>
+                        <span><i class="fas fa-star star"></i> 5.0</span>
+                        <span><i class="fas fa-heart heart"></i> 99</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing , consectetur adipisicing</p>
+                        <span class="products__button">CART</span>
+                        <span class="products__button">VIEW</span>
+                    </div>
+                </div>
+                <div class="col l-4 m-6">
+                    <div class="products__item">
+                        <div class="products__item__image">
+                            <figure>
+                              <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                            </figure>
+                        </div>
+                        <h3>Wild West Hoodie</h3>
+                        <span><i class="fas fa-star star"></i> 5.0</span>
+                        <span><i class="fas fa-heart heart"></i> 99</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing , consectetur adipisicing</p>
+                        <span class="products__button">CART</span>
+                        <span class="products__button">VIEW</span>
+                    </div>
+                </div>
+                <div class="col l-4 m-6">
+                    <div class="products__item">
+                        <div class="products__item__image">
+                            <figure>
+                              <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                            </figure>
+                        </div>
+                        <h3>Wild West Hoodie</h3>
+                        <span><i class="fas fa-star star"></i> 5.0</span>
+                        <span><i class="fas fa-heart heart"></i> 99</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing , consectetur adipisicing</p>
+                        <span class="products__button">CART</span>
+                        <span class="products__button">VIEW</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Get notification -->
+    <div class="get-notification">
+        <div class="grid wide">
+            <div class="get-notification__overlay"></div>
+            <div class="row no-gutters">
+                <div class="l-12 padding2side">
+                    <h2>Get notified on each updates.</h2>
+                    <div class="group-input">
+                        <input type="text" placeholder="Enter your email address">
+                        <button class="btn-submit">SUBCRIBE</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi veniam doloremque ducimus tempora.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature Products -->
+    <div class="feature-products">
+        <div class="products__title">
+            <div class="grid wide "> 
+                <div class="row no-gutters">
+                    <div class="col l-4">
+                        <h5>AWESOME PRODUCTS</h5>
+                        <h1>Featured Products</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
+                    </div>
+                </div>
+             </div> 
+        </div>
+        <div class="grid wide feature-products__item">
+            <!-- item 01 -->
+            <div class="row no-gutters">
+                <div class="l-6 m-6 c-12  padding2side">
+                    <div class="feature-products__item__image">
+                        <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                    </div>
+                </div>
+                <div class="l-5 m-5 m-o-1 c-12 l-o-1 padding2side
+                ">
+                    <div class="overlay__number"><h1>01.</h1></div>
+                    <div class="feature-products__item__content">
+                        <h3>About This Product</h3>
+                        <p>Et tempora id nostrum saepe amet doloribus deserunt totam officiis cupiditate asperiores quasi accusantium voluptatum dolorem quae sapiente voluptatem ratione odio iure blanditiis earum fuga molestiae alias dicta perferendis inventore!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta assumenda sed optio, error at?</p>
+                        <div class="feature-products__item-price">
+                            <h4>Price:</h4>
+                            <del>$269.00</del>   $69.00
+                        </div>
+                        <p class="feature-products__item-button">
+                            <span>VIEW DETAILS</span>
+                            <span>ADD TO CART</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Row -->
+            <div class="row-line row no-gutters"></div>
+            <!-- item 02 -->
+            <div class="row no-gutters reverse-mb">
+                <div class="l-6 m-6 c-12  padding2side">
+                    <div class="overlay__number"><h1>02.</h1></div>
+                    <div class="feature-products__item__content">
+                        <h3>About This Product</h3>
+                        <p>Et tempora id nostrum saepe amet doloribus deserunt totam officiis cupiditate asperiores quasi accusantium voluptatum dolorem quae sapiente voluptatem ratione odio iure blanditiis earum fuga molestiae alias dicta perferendis inventore!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus soluta assumenda sed optio, error at?</p>
+                        <div class="feature-products__item-price">
+                            <h4>Price:</h4>
+                            <del>$269.00</del>   $69.00
+                        </div>
+                        <p class="feature-products__item-button">
+                            <span>VIEW DETAILS</span>
+                            <span>ADD TO CART</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="l-5 m-5 m-o-1 c-12 l-o-1 padding2side">
+                     <!--  -->
+                     <div class="feature-products__item__image">
+                        <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About us -->
+    <div class="aboutUs" id="about">
+        <div class="grid wide">
+            <div class="row no-gutters">
+                <div class="col l-7">
+                    <div class="aboutUs__image">
+                        <img src="https://preview.colorlib.com/theme/selling/images/about_1.jpg">
+                        <div class="aboutUs__image-detail"><h2>Trusted Merchant</h2>
+                            <p>FOR 50 YEARS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" l-4 l-o-1">
+                    <div class="aboutUs__content">
+                        <h5>Merchant Company</h5>
+                        <h1>About Us</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fuga ipsa, repellat blanditiis nihil, consectetur. Consequuntur eum inventore, rem maxime, nisi excepturi ipsam libero ratione adipisci alias eius vero vel!</p>
+                        <span>LEARN MORE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Leader ship -->
+    <div class="leader">
+        <div class="grid wide">
+            <div class="row justify-content-center no-gutters padding2side">
+                <div class="l-4">
+                    <p>Team</p>
+                    <h1>Leadership</h1>
+                </div>
+            </div>
+            <div class="row no-gutters padding2side">
+                <div class="col l-4">
+                    <div class="leader__content">
+                        <div class="leader__content-image">
+                            <img src="https://preview.colorlib.com/theme/selling/images/person_2.jpg" alt="John Rooster">
+                            <h3>John Rooster</h3>
+                            <p>CO-FOUNDER, PRESIDENT</p>
+                            <p class="leader__content-infor">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                            <span ><i class="fab fa-facebook-f"></i></span>
+                            <span><i class="fab fa-twitter"></i></i></span>
+                            <span><i class="fab fa-linkedin-in"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col l-4">
+                    <div class="leader__content">
+                        <div class="leader__content-image">
+                            <img src="https://preview.colorlib.com/theme/selling/images/person_2.jpg" alt="John Rooster">
+                            <h3>John Rooster</h3>
+                            <p>CO-FOUNDER, PRESIDENT</p>
+                            <p class="leader__content-infor">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                            <span><i class="fab fa-twitter"></i></i></span>
+                            <span><i class="fab fa-linkedin-in"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col l-4">
+                    <div class="leader__content">
+                        <div class="leader__content-image">
+                            <img src="https://preview.colorlib.com/theme/selling/images/person_2.jpg" alt="John Rooster">
+                            <h3>John Rooster</h3>
+                            <p>CO-FOUNDER, PRESIDENT</p>
+                            <p class="leader__content-infor">Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                            <span><i class="fab fa-twitter"></i></i></span>
+                            <span><i class="fab fa-linkedin-in"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- special -->
+<div class="special" id="special">
+    <div class="grid wide">
+        <div class="row no-gutters justify-content-center">
+            <div class="col l-7">
+                <h4>SPECIAL PROMO</h4>
+                <h1>Summer Sale</h1>
+                <p>Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
+            </div>
+        </div>
+        <div class="row no-gutters justify-content-center" >
+            <div class="col l-8 c-12">
+                <div class="date-cowndown">
+                    <span class="countdown-block"><span class="label">00</span><i>weeks</i></span>
+                    <span class="countdown-block"><span class="label">00</span><i>days</i> </span>
+                    <span class="countdown-block"><span class="label">00</span><i>hr</i></span>
+                    <span class="countdown-block"><span class="label">00</span><i>min</i> </span>
+                    <span class="countdown-block"><span class="label">00</span><i>sec</i> </span>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="row no-gutters padding2side justify-content-center">
+            <div class="c-12 "><span class="btn_special">SHOP NOW</span></div>
+        </div>
+    </div>
+</div>
+<!-- services -->
+<div class="services" id="services">
+    <div class="grid wide">
+        <div class="row no-gutters justify-content-center ">
+            <div class="col l-4 ">
+                <p>OUR SERVICES</p>
+                <h1>We Offer Services</h1>
+            </div>
+        </div>
+        <div class="row no-gutters">
+                <!-- item1 -->
+                <div class="col l-4 m-6 c-12  padding2side">
+                    <div class="services__item">
+                        <div class="services__item-icon">
+                            <span><i class="fas fa-chart-pie"></i></span>
+                        </div>
+                        <div class="services__item-content">
+                            <h4>Business Consulting</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                            <span>Learn more</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item2 -->
+                <div class="col l-4 m-6 c-12 padding2side">
+                    <div class="services__item">
+                        <div class="services__item-icon">
+                            <span><i class="fas fa-chart-line"></i></i></span>
+                        </div>
+                        <div class="services__item-content">
+                            <h4>Market Analysis</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                            <span>Learn more</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- item3 -->
+                <div class="col l-4 m-6 c-12  padding2side">
+                    <div class="services__item">
+                        <div class="services__item-icon">
+                            <span><i class="fas fa-user-clock"></i></span>
+                        </div>
+                        <div class="services__item-content">
+                            <h4>User Monitoring</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                            <span>Learn more</span>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item4 -->
+                 <div class="col l-4 m-6 c-12  padding2side">
+                    <div class="services__item">
+                        <div class="services__item-icon">
+                            <span><i class="fab fa-sellsy"></i></span>
+                        </div>
+                        <div class="services__item-content">
+                            <h4>Seller Consulting</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                            <span>Learn more</span>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item5-->
+                 <div class="col l-4 m-6 c-12  padding2side">
+                    <div class="services__item">
+                        <div class="services__item-icon">
+                            <span><i class="fas fa-user-clock"></i></span>
+                        </div>
+                        <div class="services__item-content">
+                            <h4>Financial Investment</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                            <span>Learn more</span>
+                        </div>
+                    </div>
+                </div>
+                 <!-- item6 -->
+                 <div class="col l-4 m-6 c-12  padding2side">
+                    <div class="services__item">
+                        <div class="services__item-icon">
+                            <span><i class="fas fa-briefcase"></i></span>
+                        </div>
+                        <div class="services__item-content">
+                            <h4>Financial Management</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                            <span>Learn more</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+         </div>
+</div>
+<!-- blog -->
+<div class="blog" id="blog">
+    <div class="grid wide">
+        <div class="row no-gutters justify-content-center">
+            <div class="col l-6 blog__title justify-content-center">
+                <p>BLOG</p>
+                <h2>Blog Posts</h2>
+            </div>
+        </div>
+        <div class="row no-gutters ">
+            <div class="col l-4 m-6 c-12">
+                <div class="blog__content padding2side">
+                    <div class="blog__content__image">
+                        <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg" alt="">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                        <div class="blog__content__date">
+                            <span>Ham Brook</span>
+                            <span>•</span>
+                            <span>october 12,2020</span>
+                            <span>•</span>
+                            <span><a href="#">News</a></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                            <span class="continue-reading"><a href="#">Continue Reading...</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+                <div class="blog__content padding2side">
+                    <div class="blog__content__image">
+                        <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg" alt="">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                        <div class="blog__content__date">
+                            <span>Ham Brook</span>
+                            <span>•</span>
+                            <span>october 12,2020</span>
+                            <span>•</span>
+                            <span><a href="#">News</a></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                            <span class="continue-reading"><a href="#">Continue Reading...</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-4 m-6 c-12">
+                <div class="blog__content padding2side">
+                    <div class="blog__content__image">
+                        <img src="https://preview.colorlib.com/theme/selling/images/model_1_bg.jpg" alt="">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                        <div class="blog__content__date">
+                            <span>Ham Brook</span>
+                            <span>•</span>
+                            <span>october 12,2020</span>
+                            <span>•</span>
+                            <span><a href="#">News</a></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                            <span class="continue-reading"><a href="#">Continue Reading...</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Contact -->
+<div class="contact" id="contact">
+    <div class="grid wide">
+        <div class="row no-gutters justify-content-center">
+            <div class="col l-4 contact__title">
+                <p>CONTACT</p>
+                <h2>Get In Touch</h2>
+            </div>
+        </div>
+        <!-- contact form -->
+        <div class="row no-gutters contact__form-center">
+            <div class="col l-7 m-7c-11">
+                <form class="contact__form">
+                    <h2>Contact Form</h2>
+                    <div class="row form-group no-gutters ">
+                        <div class="col l-6 c-12 m-6">
+                            <label for="fname">First Name</label>
+                            <input id="fname" type="text" value="" class="form-control">
+                        </div>
+                        <div class="col l-6 c-12 m-6">
+                            <label for="lname">Last Name</label>
+                            <input id="lname" type="text" value="" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group no-gutters ">
+                        <div class="col l-12 c-12 m-12">
+                            <label for="email">Email</label>
+                            <input id="email" type="text" value="" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group no-gutters ">
+                        <div class="col l-12 c-12 m-12">
+                            <label for="subject">Subject</label>
+                            <input id="subject" type="text"value="" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row form-group no-gutters ">
+                        <div class="col l-12 c-12 m-12">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" class="form-control " placeholder="Write your comments or feelings..."></textarea>
+                        </div>
+                    </div>
+                    <div class="row form-group no-gutters justify-content-center">
+                        <div class="col l-4 c-12 m-12">
+                            <button class="contract__button">SEND</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div class="footer">
+    <div class="grid wide">
+        <div class="row no-gutters padding2side">
+            <div class=" l-3 m-3 c-12 padding-right">
+                <h3>ABOUT US</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+
+            </div>
+            <div class=" l-2 m-2 c-12 d-flex padding-right">
+                <h3>QICK LINKS</h3>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class=" l-2 m-3 c-12 padding-right">
+                <h3>FOLLOW US</h3>
+                <span><i class="fa fa-facebook"></i></span>
+                <span><i class="fa fa-twitter"></i></span>
+                <span><i class="fa fa-instagram"></i></span>
+                <span><i class="fa fa-linkedin"></i></span>
+            </div>
+            <div class="col l-4 m-4 c-12 l-o-1">
+                <h3>FEATURE PRODUCTS</h3>
+                <div class="footer__featureProduct">
+                    <img src="https://preview.colorlib.com/theme/selling/images/product_1_bg.jpg">
+                    <p>Leather Brown Shoe <br/><strong>$60.00</strong></p>
+                    
+                    <button>ADD TO CART</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row no-gutters justify-content-center">
+            <p>Copyright ©2020 All rights reserved <i class="fas fa-heart"></i> This template is made with  by Chuongdinh</p>
+        </div>
+    </div>
+</div>
+<!-- Javascript -->
+    <script>
+        function showNav(){
+            document.querySelector(".nav__mobile-menu").style.transform ="translateX(0)";
+        }
+        function closeNav(){
+            document.querySelector(".nav__mobile-menu").style.transform="translateX(100%)";
+        }
+         window.addEventListener('click', function(event) {
+             var x =  document.querySelector(".nav__mobile-menu");
+             var btn = document.querySelector("#nav-btn");
+             var parentNodeOfX = document.querySelector(".nav__mobile-list");
+             if (event.target != x && event.target.parentNode!=x && event.target!=btn && event.target.parentNode!=btn && event.target!=parentNodeOfX) {
+              x.style.transform="translateX(100%)";
+             }
+            });
+            
+            //scroll
+                // const links =document.querySelectorAll(".menu ul li a");
+                // for (const link of links){
+                //     link.addEventListener("click",clickHandler);
+                // }
+                // function clickHandler(e){
+                //     e.preventDefault();
+                //     const href =this.getAttribute("href");
+                //     const offsetTop = document.querySelector(href).offsetTop;
+                //     scroll({
+                //         top: offsetTop,
+                //         behavior:"smooth"
+                //     });
+                // }
+    </script>
+</body>
+</html>
